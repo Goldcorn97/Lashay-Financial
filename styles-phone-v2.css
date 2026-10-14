@@ -217,3 +217,13 @@ html.phone-view .button{font-size:16px;min-height:52px;max-width:100%;white-spac
 html.phone-view .page-hero h1{font-size:40px;letter-spacing:-1px}
 html.phone-view .footer-top{display:flex;flex-direction:column;gap:24px}
 html.phone-view .footer-bottom{flex-direction:column;gap:8px}
+
+/* Refined plum finish with readable, responsive controls. */
+:root{--plum:#432137;--deep:#2c1825;--ink:#352632;--muted:#62535e;--gold:#aa8b57}
+body{background:#fffbf8}header{background:#fffbf8;border-bottom:1px solid #e6d7df}
+.button,.button.small,.class-nav{border-radius:999px;box-shadow:none}.button:hover{background:#65384f}
+.hero{gap:clamp(28px,5vw,72px)}.hero h1{letter-spacing:-2px}.hero-visual .photo-frame{border-radius:32px;box-shadow:0 24px 60px #43213714}.floating{border-radius:18px;box-shadow:0 12px 35px #43213712}.ornament{display:none}
+.card,.resource-grid>a,.page-blocks article{border-radius:20px}.card{border:1px solid #e6d6df;background:linear-gradient(140deg,#fffefd,#faf1f6);padding:32px}.card-icon{border-radius:16px}.learn{font-size:17px;min-height:48px}.card:hover,.resource-grid>a:hover{border-color:#b88ba2}
+.agency-brand-panel{border-radius:28px;background:linear-gradient(140deg,#efd8e3,#ddbbcc)}.guide{border-radius:24px}.guide-intro{background:#efdae5}.choices button{min-height:48px}.team-banner{border-radius:24px;background:#f6eaf0;padding:40px;margin-bottom:64px}.closing{background:linear-gradient(125deg,#301b29,#593149)}
+@media(max-width:760px){.hero-visual .photo-frame{border-radius:24px}.card{padding:26px}.team-banner{padding:28px;margin-bottom:40px}.hero h1{letter-spacing:-1px}}
+html.phone-view .photo-frame{border-radius:24px}html.phone-view .ornament{display:none}html.phone-view .team-banner{padding:28px}html.phone-view .resource-grid>a{border-radius:20px}
